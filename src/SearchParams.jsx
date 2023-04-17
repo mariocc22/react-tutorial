@@ -67,10 +67,11 @@ const SearchParams = () => {
               <option key={breed}>{breed}</option>
             ))}
           </select>
-          {console.log(breeds, status)}
         </label>
         <button>Submit</button>
       </form>
+      {console.log("this is breed list", breeds, status)}
+
       <Results pets={pets} />
     </div>
   );
